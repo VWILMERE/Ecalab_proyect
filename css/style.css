@@ -1,0 +1,132 @@
+:root {
+    --primary-color: #0073e6;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+aside,
+figure,
+hgroup,
+section,
+nav {
+    display: block;
+    width: 100%;
+}
+.main-menu img{
+    width: 75%;
+}
+.aside-home {
+    width: 20%;
+    background-color: var(--primary-color);
+}
+.main-mennu,.logotipo {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+.main-menu,.menu-links {
+    color:white;
+    padding: 0 15px;
+    font-size: 2.6rem;
+    text-decoration: none;
+}
+.main-menu ul li{
+    list-style: none;
+    padding-top: 25px;
+}
+.main-menu,.enviar-btn {
+    color: var(--primary-color);
+}
+.enviar-btn {
+    background-color: antiquewhite;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 95%;
+    border-radius: 15px;
+    position: relative;
+    top: 9rem;
+}
+
+.hero {
+    background-image: url(../images/backgrund.png);
+    background-size: 100% 100vh;
+}
+.container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0 32px;
+}
+.img-responsive {
+    width: 100%;
+    height: 80vh;
+}
+.image-hero {
+    margin-top: 8rem;
+}
+.title-hero {
+    font-size: 7rem;
+}
+.description-hero{
+    opacity: .7;
+}
+.email {
+    width: 50%;
+    height: 4.5rem;
+    border-radius: 10px;
+    border: none;
+    padding-left: 2rem;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.6);
+}
+.submit {
+    width: 20%;
+    height: 4.5rem;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 2.5rem;
+    color: white;
+}
+.submit:hover {
+    transform: scale(.99);
+}
+.data-hero {
+    padding-top: 3rem;
+}
+.hero-color {
+    color:var(--primary-color);
+}
+.image-description {
+    text-align: end;
+}
+.move {
+    padding-right: 6.7rem;
+}
+.enviar-btn:hover {
+    cursor: pointer;
+    transition: 1s all;
+    background-color: black;
+    border-radius: 10px;
+}
